@@ -1,0 +1,92 @@
+.banner{
+    background-color: azure;
+    height: 500px;
+    display: flex;
+}
+.left-banner{
+    width: 50%;
+   
+}
+.left-banner img{
+   width: 60%;
+   margin-left: 100px;
+   margin-top: 20px;
+ 
+}
+.right-banner{
+    width: 50%;
+   
+    text-align: right;
+}
+.inner-right-banner{
+    width: 37%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-right: 150px;
+    
+}
+.inner-right-banner h1{
+    font-size: 30px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.btn{
+    padding: 10px 15px;
+    margin-top: 30px;
+    border: none;
+    background-color: orangered;
+    color:white
+}
+.plan div{
+ 
+ height: 200px; 
+ width: 200px;
+ margin: 35px;
+ text-align: center;
+}
+.plan{
+    display: flex;
+    margin-left: 150px;
+}
+.plan h3{
+    font-weight: 700;
+}
+.plan img{
+    width: 40px;
+}
+.title{
+ 
+ text-align: center;
+ margin-top: 20px;
+}
+
+.bonus{
+    height: 300px;
+    width: 1200px;
+   
+    margin-left: 100px;
+    background-image: linear-gradient(to right, rgb(255, 81, 0), rgba(255,0,0,0) );
+
+}
+.bonus img{
+    width: 100%;
+   height: 100%;
+ 
+
+
+}
+
+.left-bonus{
+    
+    margin-left: 100px;
+    padding-top:40px ;
+}
+footer{
+    color: aliceblue;
+    height: 300px;
+    background-color: black;
+    margin: 20px;
+}
+
