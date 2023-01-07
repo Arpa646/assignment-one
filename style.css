@@ -13,6 +13,10 @@
     background-size: cover;
 
 }
+.text-size{
+   
+  
+}
 
  /* for banner text design */
 .right-banner{
@@ -28,6 +32,9 @@
     margin-top: 100px;
     margin-right: 150px;
     
+}
+.inner-right-banner p{
+    font-size: 15px;
 }
 .inner-right-banner h1{
     font-size: 38px;
@@ -106,11 +113,13 @@
 .fail-right li {
     margin-left: 12px;
     margin-top: 8px;
+    font-size: 15px;
     
 
 }
 .fail-right p{
     margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .social img{
