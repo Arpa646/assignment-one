@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;700&family=Bebas+Neue&family=Charis+SIL:ital,wght@0,700;1,700&family=Gentium+Plus&family=Lato:wght@100&family=Open+Sans:wght@400;700&family=Poppins:wght@300&family=Roboto+Condensed:wght@300&family=Roboto+Mono:ital@1&family=Roboto:ital,wght@1,100&family=Source+Sans+Pro:wght@600&display=swap');
 .banner{
     background-image: url('./images/banner/banner1.png');
-    height: 600px;
+    height: 700px;
     display: flex;
     background-size: cover;
 
@@ -12,23 +13,26 @@
 
 .right-banner{
     width: 50%;
+   
     margin-left: 700px;
    margin-top: 100px;
     text-align: right;
 }
 .inner-right-banner{
-    width: 37%;
+    width: 47%;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 100px;
     margin-right: 150px;
     
 }
 .inner-right-banner h1{
     font-size: 38px;
+   font-weight: bolder;
 }
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 .btn{
     padding: 10px 15px;
@@ -68,6 +72,7 @@
 .extra-work-left img{
     width: 70%;
     margin: 100px 80px;
+    box-shadow: 2px 2px 5px rgb(77, 76, 76);
 }
 .extra-work-right h1{
     color: white;
@@ -78,11 +83,12 @@
 .extra-work-right h3  {
     color: white;
     margin-top: 50px;
+    margin-left: 140px;
 }
 .extra-work-right li  {
     color: white;
    margin-top: 10px;
-  margin-left: 200px;
+  margin-left: 150px;
 
 }
 
@@ -148,7 +154,7 @@ font-weight: 800;
 
 footer{
     color: aliceblue;
-    height: 400px;
+    height: 500px;
     background-color: black;
     margin-top: 80px;
     display: flex;
