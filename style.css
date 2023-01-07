@@ -13,10 +13,7 @@
     background-size: cover;
 
 }
-.text-size{
-   
-  
-}
+
 
  /* for banner text design */
 .right-banner{
@@ -35,10 +32,11 @@
 }
 .inner-right-banner p{
     font-size: 15px;
+    margin-top: 15px;
 }
 .inner-right-banner h1{
     font-size: 38px;
-   font-weight: bolder;
+   font-weight: 800;
 }
 
 .btn{
@@ -205,7 +203,7 @@ third section end */
 }
 .bonus .btn{
 background-color: rgb(250, 229, 215);
-color: orange;
+color: rgb(255, 60, 0);
 font-weight: 800;
 
 }
