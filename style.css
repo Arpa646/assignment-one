@@ -129,9 +129,9 @@
     display: flex;
 }
 .btn1{
-    padding: 10px 15px;
+    padding: 12px 25px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     color: orangered;
     font-weight: 700;
 }
@@ -168,7 +168,7 @@ third section end */
     font-weight: 700;
 }
 .plan img{
-    width: 40px;
+    width: 50px;
 }
 
 
@@ -246,6 +246,9 @@ margin-left: 190px;
 .fotter-left span{
  margin-bottom: 10px;
 
+}
+.fotter-left p{
+    font-size: 15px;
 }
 .right-footer{
     width: 30%;
