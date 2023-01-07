@@ -1,16 +1,20 @@
+/* its for font awesome */
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;700&family=Bebas+Neue&family=Charis+SIL:ital,wght@0,700;1,700&family=Gentium+Plus&family=Lato:wght@100&family=Open+Sans:wght@400;700&family=Poppins:wght@300&family=Roboto+Condensed:wght@300&family=Roboto+Mono:ital@1&family=Roboto:ital,wght@1,100&family=Source+Sans+Pro:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* banner design start */
 .banner{
     background-image: url('./images/banner/banner1.png');
     height: 700px;
     display: flex;
     background-size: cover;
 
-
-
-
 }
 
-
+ /* for banner text design */
 .right-banner{
     width: 50%;
    
@@ -29,11 +33,7 @@
     font-size: 38px;
    font-weight: bolder;
 }
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-}
+
 .btn{
     padding: 10px 15px;
     margin-top: 30px;
@@ -42,24 +42,9 @@
     color:white;
     border-radius: 5px;
 }
-.plan div{
- 
- height: 200px; 
- width: 200px;
- margin: 35px;
- text-align: center;
-}
-.plan{
-    display: flex;
-    margin-left: 150px;
-}
-.plan h3{
-    font-weight: 700;
-}
-.plan img{
-    width: 40px;
-}
+/* banner design end */
 
+/* for bonus */
 .extra-work{
     background-color: black;
     height: 500px;
@@ -91,105 +76,12 @@
   margin-left: 150px;
 
 }
+/* bonus design end */
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.title{
- 
- text-align: center;
- margin-top: 20px;
- font-size: 35px;
-}
-
-.bonus{
-    height: 230px;
-    width: 1000px;
-    border-radius: 10px;
-   
-    margin-left: 200px;
-    background: linear-gradient(to right, rgb(255, 81, 0), rgba(255,0,0,0) ),
-    url('./images/watch.png') no-repeat center / cover;
-
-}
-.bonus img{
-    width: 100%;
-   height: 100%;
- 
-
-
-}
-.bonus .btn{
-background-color: rgb(250, 229, 215);
-color: orange;
-font-weight: 800;
-
-}
-
-
-.left-bonus{
-    
-    margin-left: 100px;
-    padding-top:40px ;
-}
-.left-bonus h1{
-    font-size: 30px;
-    color: white;
-    font-weight: 700;
-
-}
-
-footer{
-    color: aliceblue;
-    height: 500px;
-    background-color: black;
-    margin-top: 80px;
-    display: flex;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-.fotter-left{
-
-width: 30%;
-padding-top: 100px;
-margin-left: 190px;
-}
-.fotter-left h3{
-   font-size: 30px; 
-}
-.fotter-left span{
- margin-bottom: 10px;
-
-}
-.right-footer{
-    width: 30%;
-    padding-top: 100px;
-    margin-left: 400px; 
-}
-input{
-    padding: 10px;
-    border: 1px solid white;
-    background-color: transparent;
-    border-radius: 10px;
-    margin-top: 10px;
-}
-
-
-
+/* thired section design */
 
 .fail{
    
@@ -236,6 +128,134 @@ input{
     color: orangered;
     font-weight: 700;
 }
+/* 
+third section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* design for plan section */
+
+.plan div{
+ 
+ height: 200px; 
+ width: 200px;
+ margin: 35px;
+ text-align: center;
+}
+.plan{
+    display: flex;
+    margin-left: 150px;
+}
+.plan h3{
+    font-weight: 700;
+}
+.plan img{
+    width: 40px;
+}
+
+
+/* plan design end */
+
+/* for plans title */
+.title{
+ 
+ text-align: center;
+ margin-top: 20px;
+ font-size: 35px;
+}
+
+
+/* gradient with picture part design */
+.bonus{
+    height: 230px;
+    width: 1000px;
+    border-radius: 10px;
+   
+    margin-left: 200px;
+    background: linear-gradient(to right, rgb(255, 81, 0), rgba(255,0,0,0) ),
+    url('./images/watch.png') no-repeat center / cover;
+
+}
+.bonus img{
+    width: 100%;
+   height: 100%;
+ 
+
+
+}
+.bonus .btn{
+background-color: rgb(250, 229, 215);
+color: orange;
+font-weight: 800;
+
+}
+
+
+.left-bonus{
+    
+    margin-left: 100px;
+    padding-top:40px ;
+}
+.left-bonus h1{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+
+}
+/* end of gradient part */
+
+
+ /* footer design */
+footer{
+    color: aliceblue;
+    height: 500px;
+    background-color: black;
+    margin-top: 80px;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.fotter-left{
+
+width: 30%;
+padding-top: 100px;
+margin-left: 190px;
+}
+.fotter-left h3{
+   font-size: 30px; 
+}
+.fotter-left span{
+ margin-bottom: 10px;
+
+}
+.right-footer{
+    width: 30%;
+    padding-top: 100px;
+    margin-left: 400px; 
+}
+input{
+    padding: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+/* fotter design end */
+
+
+
 
 
 
